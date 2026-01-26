@@ -1,0 +1,15 @@
+{{ block title }}
+    説明&貢献額の決定
+{{ endblock }}
+{{ block content }}
+<p>
+    これは{{C.PLAYERS_PER_GROUP}}人プレイヤーによる公共財ゲームです. 
+    <br>
+    初期保有額は{{C.ENDOWMENT}}であり, 係数は{{C.MULTIPLIER}}です. 
+    <br>
+    {{C.PLAYERS_PER_GROUP}}で割ったものが一人ひとりに返されます. <br>
+</p>
+    {{ formfields }}
+    {{ next_button }}
+
+{{ endblock }}

@@ -1,0 +1,7 @@
+participant.id_in_session,participant.code,participant.label,participant._is_bot,participant._index_in_pages,participant._max_page_index,participant._current_app_name,participant._current_page_name,participant.time_started_utc,participant.visited,participant.mturk_worker_id,participant.mturk_assignment_id,participant.payoff,player.id_in_group,player.role,player.payoff,player.q_gender,player.q_age,player.q_area,player.q_tanmatsu,player.q_isalone,player.q_student,group.id_in_subsession,session.code,session.label,session.mturk_HITId,session.mturk_HITGroupId,session.comment,session.is_demo
+1,6w1h4kun,,0,2,1,questionnaire,Page1,2025-12-15 02:12:05.402722,1,,,0.0,1,,0.0,男性,22,東北地方,パソコン,,,1,gn2quafh,,,,,1
+1,lnsn0ikd,,0,0,1,,,,0,,,0.0,1,,0.0,,,,,,,1,vk10sy40,,,,,1
+1,1epzg6ri,,0,1,1,,,2025-12-15 02:17:17.833774,1,,,0.0,1,,0.0,,,,,,,1,gsh12ua0,,,,,1
+1,w1d5bc7s,,0,2,1,questionnaire,Page1,2025-12-15 02:22:21.522693,1,,,0.0,1,,0.0,男性,22,東北地方,パソコン,いいえ,1,1,q38vakam,,,,,1
+1,s50wlj7k,,0,2,1,questionnaire,Page1,2025-12-15 02:40:02.515405,1,,,0.0,1,,0.0,女性,12,四国地方,それ以外,いいえ,1,1,ds73lfgu,,,,,1
+1,ak52lpof,,0,0,1,,,,0,,,0.0,1,,0.0,,,,,,0,1,rp1fuisr,,,,,1
