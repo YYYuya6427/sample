@@ -1,0 +1,32 @@
+{{ block title }}
+    提案額の決定
+{{ endblock }}
+{{ block content }}
+<p>
+    あなたは<B>プレイヤー1</B>に割り振られました. <br>
+</p>
+    <p>あなたはいくら相手に渡しますか＞</p>
+    <div class="btn-toolbar me-2" role="toolbar" aria-label = "button group">
+    <!-- 0-3ポイント -->
+    <div class="btn-group me-2" role="group" aria-label="First group">
+        <button name="proposal" value="0" class="btn btn-primary">0pt</button>
+        <button name="proposal" value="1" class="btn btn-primary">1pt</button>
+        <button name="proposal" value="2" class="btn btn-primary">2pt</button>
+        <button name="proposal" value="3" class="btn btn-primary">3pt</button>
+    </div>
+    <!-- 4-6ポイント -->
+    <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button name="proposal" value="4" class="btn btn-warning">4pt</button>
+        <button name="proposal" value="5" class="btn btn-warning">5pt</button>
+        <button name="proposal" value="6" class="btn btn-warning">6pt</button>
+    </div>
+    <!-- 7-10ポイント -->
+    <div class="btn-group me-2" role="group" aria-label="Third group">
+        <button name="proposal" value="7" class="btn btn-danger">7pt</button>
+        <button name="proposal" value="8" class="btn btn-danger">8pt</button>
+        <button name="proposal" value="9" class="btn btn-danger">9pt</button>
+        <button name="proposal" value="10" class="btn btn-danger">10pt</button>
+    </div>
+    </div>
+
+{{ endblock }}
